@@ -1,0 +1,64 @@
+  div.item img{
+  width:100%;
+   }
+  div#carousel-example-generic{
+    width:100%;
+    margin:0 auto;
+  }
+  /*图片尺寸1080*550左右*/
+
+body{
+   padding-top:0px;
+}
+.text1{color:white;font-size:28px;padding:0 0 0.2% 0;
+position: absolute;
+ left: 20%;
+ top: 18%;}
+.text2{color:white;font-size:22px;padding:0.2% 0 0 0;
+position: absolute;
+ left: 20%;
+ top: 24%;}
+.box1{background-color:white;width:12%;height:15.25%;margin:0 0 1% 0;
+position: absolute;
+ left: 65%;
+ top: 18%;
+ }
+.box2{background-color:white;width:12%;height:25.25%;margin:0% 0% 0% 0%;
+position: absolute;
+ left: 65%;
+ top: 35%;}
+ div{padding:5px 5px 5px 5px;}
+.line{border-top-size:0.25px;border-top-style:solid;border-top-color:rgb(245,245,245);}
+a.no_underline {
+	text-decoration: none;
+	color:white;
+	font-size:12px;
+}
+.bottom{
+	position: absolute;
+	left: 22%;
+	top: 80%;
+}
+.left{float:right;font-size:20px;}
+.titletop{font-size:20px;color:rgb(50,50,50);font-weight:bold;}
+.txt{	text-decoration: none;
+	color:white;
+	font-size:14px;
+	position: absolute;
+ left: 20%;
+ top: 60%;
+	}
+#date{	text-decoration: none;
+	color:white;
+	font-size:18px;
+	position: absolute;
+ left: 40%;
+ top: 45%;
+	}
+#time{
+	color="white";
+	font-size:18px;
+	position: absolute;
+	left: 55%;
+	top: 45%;
+}

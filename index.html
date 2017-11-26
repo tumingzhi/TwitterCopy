@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+		<meta charset="gb2312" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap/component.css" />
+		<script src="js/jquery/modernizr.custom.js"></script>
+		<script src="js/jquery/jquery.min.js"></script>  
+		<script src="js/jquery/jquery.imagesloaded.min.js"></script>
+<link href="css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap/3.3.6/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/feature.js"></script>
+	<body>
+<!--最上面一层标题栏-->
+	<div class="panel panel-default title">
+	<div class="panel-body">
+	<span><img width="40px" height="30px" src="images/timg.jpg"/> &nbsp;&nbsp; <a class="titletop" href="#"/>主页</a> &nbsp;&nbsp;&nbsp;&nbsp;
+	<img width="30px" height="30px" src="images/timg3.png"/> &nbsp;&nbsp; <a class="titletop" href="https://twitter.com/i/moments"/>瞬间</a></span>
+	<span class="left">语言：简体中文</span>
+	</div>
+	</div>
+<!--背景图片轮播-->
+		<div class="container">
+			<div class="main">
+				<ul id="cbp-bislideshow" class="cbp-bislideshow">
+					<li><img src="images/2.jpg" alt="image01"/></li>
+					<li><img src="images/3.jpg" alt="image02"/></li>
+					<li><img src="images/1.jpg" alt="image03"/></li>
+				</ul>
+			</div>
+		</div>
+		
+
+		<script src="js/jquery/cbpBGSlideshow.min.js"></script>
+		<script>
+			$(function() {
+				cbpBGSlideshow.init();
+			});
+		</script>
+
+        <div class="text1">欢迎使用 Twitter。</div>
+		<div class="box1">
+  <div class="LoginForm-input LoginForm-username">
+    <input type="text" class="form-control" autocomplete="name" placeholder="手机、邮件地址或用户名"/>
+  </div>
+
+  <div>
+    <input type="password" class="form-control" name="password" placeholder="密码" autocomplete="current-password">
+  </div>
+
+  <div>
+      <input type="checkbox" value="1" name="remember_me" checked="checked">
+      <span>记住我</span>
+    <span class="separator">&middot;</span>
+    <a class="forgot" href="/account/begin_password_reset" rel="noopener">忘记密码?</a>   
+	<span><button type="submit" class="btn btn-default" style="color:lightskyblue;margin:5px 5px 5px 10px;">登录</button></span>
+  </div>
+		</div>
+
+
+        <div class="text2"><span>联系你的好友和更多精彩。获取你感兴趣的实时</span><br/>
+		<span>更新。并通过每个视角观看事件实时呈现。</span></div>
+
+		<div class="box2">
+ <div><font size="5">新来 Twitter? 注册</font></div>
+ <div class="line"></div>
+   <div class="LoginForm-input LoginForm-username">
+    <input type="text"  onfocus="f()" onblur="b()" class="form-control" autocomplete="name" id="input" placeholder="全名"/>
+  </div>
+     <div class="LoginForm-input LoginForm-username">
+    <input type="text" class="form-control" autocomplete="e-mail" placeholder="邮件"/>
+  </div>
+  <div>
+    <input type="password" class="form-control" name="password" placeholder="密码" autocomplete="current-password">
+  </div><div class="right">
+	<button type="submit" class="btn btn-info" style="color:white;margin:5px 5px 10px 115px;">注册Twitter</button></div>
+</div>
+
+<div class="bottom">
+
+<a href="#" class="no_underline">关于</a> &nbsp
+<a href="#" class="no_underline">帮助中心</a> &nbsp
+<a href="#" class="no_underline">博客</a> &nbsp
+<a href="#" class="no_underline">状态</a>  &nbsp
+<a href="#" class="no_underline">工作机会</a> &nbsp
+<a href="#" class="no_underline">条款</a> &nbsp
+<a href="#" class="no_underline">隐私政策</a> &nbsp
+<a href="#" class="no_underline">Cookies</a>  &nbsp
+<a href="#" class="no_underline">广告信息</a> &nbsp
+<a href="#"class="no_underline">商标</a>  &nbsp
+<a href="#" class="no_underline">广告</a>  &nbsp
+<a href="#" class="no_underline">市场营销</a> &nbsp
+<a href="#" class="no_underline">企业</a> &nbsp
+<a href="#" class="no_underline">开发者</a> &nbsp
+<a href="#" class="no_underline">目录</a> &nbsp
+<a href="#" class="no_underline">设置</a> &nbsp
+<span><font color="white">© 2017 Twitter</font></span>
+		</div>
+		<div class="txt"><a href="https://twitter.com/flyingnikon/status/545950084853014529"><font color="white">今日の羽田→伊丹便、大阪への降下中に現れた虹のリング。太<br/>陽を背にした飛行機の周囲に光が拡散され、雲の上で虹のよう<br/>に見える「ブロッケン現象」です。実際に見て撮影に成功した<br/>のは初めてで、夜になった今も興奮が冷めません。</font></a></div>
+		<!--显示日期时间-->
+		<span id="date"><font color="white">
+		<script>
+			date();//调用日期函数
+		</script>
+		</font></span>
+		<!--计时器-->
+		<font color="white" ><span id="time"></span></font>
+			<script>var t = setInterval(printTime,1000);
+					</script>
+</body>
+</html>
